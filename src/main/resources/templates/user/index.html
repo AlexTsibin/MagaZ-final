@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Главная страница</title>
+    <head th:replace="fragments/head"/>
+</head>
+<body>
+<div class="container mb-4">
+    <div th:replace="fragments/header"></div>
+    <div th:replace="fragments/nav"></div>
+    <div th:replace="fragments/mainBanner"></div>
+
+
+    <div th:replace="fragments/listProducts"></div>
+
+
+</div>
+<div th:replace="fragments/footer"></div>
+</body>
+</html>
